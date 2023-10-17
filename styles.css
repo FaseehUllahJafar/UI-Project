@@ -1,0 +1,311 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fcontainer {
+
+  /* height: 20px; */
+  padding: 50px;
+  height: fit-content;
+
+  /* border: 5px solid white;
+  justify-content: center;
+  background-color: wheat; */
+}
+
+#body {
+  background-color: #2B2B2B;
+}
+
+/* .pages-padding {
+  padding: 70px;
+} */
+
+.headings {
+  font-family: Work Sans;
+  font-weight: 600;
+  text-align: left;
+}
+
+.textfields {
+  /* font-family: Work Sans; */
+  /* font-weight: 400; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.hero-digits-small {
+  font-size: 22px;
+}
+
+.hero-text-small {
+  font-size: 16px;
+}
+
+
+
+.textcolor {
+  color: white;
+}
+
+.btn {
+  /* width: Hug (152px);
+    height: Fixed (60px); */
+  padding: 5px 40px 5px 40px;
+  border-radius: 20px;
+  gap: 12px;
+  background: #A259FF;
+}
+
+.btn-get-started {
+  padding: 20px 70px 19px 63px;
+}
+
+.btn-get-started-small {
+  /* padding: auto; */
+  margin-left: 17px;
+  margin-right: 17px;
+  /* min-width: fit-content; */
+}
+
+.btn-right-position {
+  float: right;
+  min-width: 200px;
+
+}
+
+.rating-padding {
+  padding-top: 50px;
+}
+
+.rating-padding-small {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.page-btn-position {
+  align-self: flex-end;
+}
+
+.page-btn-style {
+  border: 2px solid #A259FF;
+  background-color: #2B2B2B;
+  color: white;
+}
+
+.card {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  font-size: 0.7rem;
+
+}
+
+.artist-name {
+  padding-left: 10px;
+}
+
+.t-coll-card {
+  padding: 10px;
+}
+
+.creators {
+  width: 90px;
+  height: 120px;
+}
+
+.creators-card {
+  align-items: center;
+  background-color: #3B3B3B;
+}
+
+.creators-card-text {
+  color: #858584;
+  font-size: small;
+}
+
+.creators-card-digits {
+  font-size: small;
+}
+
+.small-creator {
+  padding-top: 12%;
+}
+
+.creators-rows {
+  padding: 10px;
+}
+
+.creators-sales-flex {
+  flex-wrap: nowrap;
+}
+
+.rankings {
+  background-color: #2B2B2B;
+  border-radius: 20px;
+  align-self: self-start;
+  text-align: center;
+  width: 30px;
+}
+
+.subscribe-widget {
+  background-color: #3B3B3B;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.subscribe-text-background {
+  background-color: #3B3B3B;
+  border: 0px;
+}
+
+
+.img-width-fill {
+  width: 100%;
+}
+
+.email-field {
+  border-radius: 20px;
+  width: 100%;
+  min-width: 200px;
+}
+
+.web-background {
+  background-color: #2B2B2B;
+  border: 0px;
+}
+
+
+/* small screen */
+@media only screen and (min-width: 320px) {
+  .headings {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .pages-padding {
+    padding: 25px;
+  }
+
+  .subscribe-text-background {
+    background-color: #2B2B2B;
+  }
+
+  .textfields {
+    font-size: 16px;
+  }
+
+  .pages-padding-small {
+    padding: 0px;
+  }
+
+  .subscribe-widget-small {
+    background-color: #2B2B2B;
+  }
+
+  .small-screen-hide {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  .small-screen-show {
+    /* visibility: visible; */
+    display: unset;
+  }
+}
+
+/* middle screen */
+@media only screen and (min-width: 768px) {
+  .headings {
+    font-size: 38px;
+
+  }
+
+  .subscribe-widget-small {
+    background-color: #3B3B3B;
+  }
+
+  .pages-padding {
+    padding: 70px;
+  }
+
+  .subscribe-text-background {
+    background-color: #3B3B3B;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+
+  .textfields {
+    font-size: 16px;
+  }
+
+  .pages-padding-small {
+    padding: 60px;
+  }
+
+  .middle-screen-hide {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  .middle-screen-show {
+    /* visibility: visible; */
+    /* display: contents; */
+    display: unset;
+  }
+}
+
+/* large screen */
+@media only screen and (min-width: 992px) {
+  .headings {
+    font-size: 60px;
+  }
+
+  .hero-digit-size {
+    font-size: 47px;
+  }
+
+  .pages-padding {
+    padding: 70px;
+  }
+
+  .title {
+    font-size: 100px;
+  }
+
+  .subscribe-text-background {
+    background-color: #3B3B3B;
+  }
+
+  .subscribe-widget-small {
+    background-color: #3B3B3B;
+  }
+
+  .btn-get-started {
+    padding: 20px 70px 19px 63px;
+  }
+
+  .textfields {
+    font-size: 22px;
+  }
+
+  .large-screen-hide {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  .large-screen-show {
+    /* visibility: visible; */
+    /* display: contents; */
+    display: unset;
+  }
+}
